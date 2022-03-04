@@ -1,20 +1,20 @@
-const giveAlert = () =>{
+const giveAlert = () => {
     alert("al amin don't be lazy");
 }
 
-const getConfirmation = () =>{
+const getConfirmation = () => {
     const response = confirm('Are Ready to Work Hard');
-    if(response === true){
+    if (response === true) {
         alert('Yes he is dedicated');
     }
-    else{
-        console.log(response,'he is lazy');
+    else {
+        console.log(response, 'he is lazy');
     }
 }
 
-const getInput = () =>{
+const getInput = () => {
     const input = prompt('Are you agree or agree do work hard?');
-    if(input){
+    if (input) {
         console.log(input);
     }
 }
